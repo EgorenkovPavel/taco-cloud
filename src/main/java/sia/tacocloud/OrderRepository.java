@@ -4,5 +4,5 @@ import java.util.UUID;
 
 import org.springframework.data.repository.CrudRepository;
 
-public interface OrderRepository extends CrudRepository<TacoOrder, UUID>{    
+public interface OrderRepository extends CrudRepository<TacoOrder, String>{    
 }
